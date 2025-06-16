@@ -1,0 +1,56 @@
+body{
+    font-family: "Epilogue", sans-serif;
+    background-color: #e6ccff;
+}
+
+span{
+    color: purple;
+    font-size: 30px;
+}
+
+
+h2{
+    color:rgb(128, 159, 255);
+    font-size: 40px;
+}
+
+p{
+    color:skyblue;
+    font-size: 50px;
+}
+
+
+#unique{
+    color:#FF7D29;
+    font-size: 25px;
+    
+}
+
+.highlight{
+    color: #FFBF78;
+    font-size: 25px;
+}
+
+.color-demo{
+    color: rgb(204, 153, 255);
+}
+
+.size-demo{
+    font-size: 20px;
+}
+
+.family-demo{
+    font-family: "Epilogue", sans-serif;
+}
+
+.weight-demo{
+    font-weight: bold;
+}
+
+.align-demo{
+    text-align: center;
+}
+
+.decoration-demo{
+    text-decoration: underline;
+}
