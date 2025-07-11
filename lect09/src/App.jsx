@@ -8,9 +8,14 @@ function App() {
 
   const [tours, setTour] = useState(data)
 
+  function BtnHandler(id){
+      const newTours= tours.filter(tour=>tour.id !== id);
+      setTour(newTours);
+  }
+
   return (
    <div>
-        <Tours tours = {tours}/>
+        <Tours tours = {tours} BtnHandler={BtnHandler}/>
    </div>
   )
 }

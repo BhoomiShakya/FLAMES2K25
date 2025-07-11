@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cards({id, image, price, name, info}){
+function Cards({id, image, price, name, info, BtnHandler}){
     return (
         <div className="card">
             <img src={image} className="image" />
@@ -16,7 +16,7 @@ function Cards({id, image, price, name, info}){
                         </span>
                 </div>
             </div>
-            <button className="btn-red">Not Interested</button>
+            <button className="btn-red" onClick={()=>BtnHandler(id)}>Not Interested</button>
         </div>
     )
 }

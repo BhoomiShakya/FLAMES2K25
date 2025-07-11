@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "./Card";
 
-function Tours({tours}){
+function Tours({tours, BtnHandler}){
     return (
         <div className="container">
             <div>
@@ -10,7 +10,7 @@ function Tours({tours}){
             <div className="cards">
                 {
                     tours.map((tour)=>{
-                        return <Cards key={tour.id} {...tour}/>
+                        return <Cards key={tour.id} {...tour} BtnHandler={BtnHandler}/>
                     })
                 }
             </div>
